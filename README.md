@@ -1,6 +1,6 @@
 
-# Food / Not Food Text Classifier
-**Author:** Muhammad Shahzad
+# Food / Not Food Text Classifier - By MUHAMMAD SHAHZAD
+
 DistilBERT fine-tuned with Hugging Face Transformers to classify whether a sentence is about food.
 
 - Model: https://huggingface.co/MS260000/food-not-food-text-classifier
