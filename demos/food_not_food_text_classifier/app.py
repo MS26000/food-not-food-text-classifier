@@ -20,14 +20,15 @@ def food_not_food_classifier(text: str) -> Dict[str, float]:
 description = """
 A text classifier to determine if a sentence is about food or not food. 
 
-Fine-tuned from [DistilBERT](/MS260000/food-not-food-text-classifier) on a [small dataset of food and not food text](https://huggingface.co/MS260000/food-not-food-text-classifier).
+Fine-tuned from [DistilBERT](/MS260000/food-not-food-text-classifier) on a [small dataset of food and not food text](https://huggingface.co/MS260000/food-not-food-text-classifier)
+Built by Muhammad Shahzad.
 """
 
 demo = gr.Interface(
     fn=food_not_food_classifier, 
     inputs="text", 
     outputs=gr.Label(num_top_classes=2),
-    title="🍗🚫🥑 Food or Not Food Text Classifier",
+    title="🍗🚫🥑 Food or Not Food Text Classifier - by Muhammad Shahzad",
     description=description,
     examples=[
         ["I whipped up a fresh batch of code, but it seems to have a syntax error."],
